@@ -2,7 +2,7 @@ GraphqlAPI for custom feedback form
 
 
 
-mutation {
+`mutation {
   createQueryFeedbacks(
     input: {
       name: "Rohit kaushik"
@@ -22,11 +22,6 @@ mutation {
       disclaimer
     }
   }
-}
-    
-    
-      Expand (21 lines)
-      Collapse
-    
-  
+}`
+
   
