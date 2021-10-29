@@ -1,10 +1,32 @@
-- 👋 Hi, I’m @kaushikrohit54
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+GraphqlAPI for custom feedback form
 
-<!---
-kaushikrohit54/kaushikrohit54 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+
+mutation {
+  createQueryFeedbacks(
+    input: {
+      name: "Rohit kaushik"
+      mobile: "9711154754"
+      email: "rohit.kaushik@publicisgroupe.com"
+      feedback: "This is my feedback or query to admin"
+      disclaimer: "Yes"
+    }
+  )
+  {
+    feedback_submit {
+      entity_id
+      name
+      mobile
+      email
+      feedback
+      disclaimer
+    }
+  }
+}
+    
+    
+      Expand (21 lines)
+      Collapse
+    
+  
+  
