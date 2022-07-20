@@ -1,14 +1,14 @@
-GraphqlAPI for custom feedback form
+GraphqlAPI for Contact form
 
 
 
 `mutation {
-  createQueryFeedbacks(
+  createContact(
     input: {
       name: "Rohit kaushik"
       mobile: "9711154754"
-      email: "rohit.kaushik@publicisgroupe.com"
-      feedback: "This is my feedback or query to admin"
+      email: "kaushikrohit54@gmail.com"
+      feedback: "This is my feedback or query to rohit kaushik"
       disclaimer: "Yes"
     }
   )
